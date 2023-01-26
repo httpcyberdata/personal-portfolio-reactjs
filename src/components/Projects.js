@@ -13,7 +13,7 @@ export const Projects = () => {
         },
         {
           title: "Business Startup",
-          description: "Design & Development"  ,
+          description: "Design & Development",
           imgUrl: projImg2,
         },
         {
@@ -34,13 +34,8 @@ export const Projects = () => {
         {
             title: "Business Startup",
             description: "Design & Development",
-            imgUrl: "projImg2"
+            imgUrl: projImg2
         },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3
-        }
     ];
     return (
         <section className="project" id="project">
@@ -50,7 +45,7 @@ export const Projects = () => {
                         <h2>Projects</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" defaultActiveKey="/home">
+                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab One</Nav.Link>
                                 </Nav.Item>
