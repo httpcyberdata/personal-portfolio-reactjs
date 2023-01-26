@@ -47,6 +47,8 @@ React: 18.2.0
 - Single quotes on imports 
     ```
         import { Col } from 'react-bootstrap';
+        // instead of
+        import { Col } from "react-bootstrap";
     ```
 
 ## What I learned
