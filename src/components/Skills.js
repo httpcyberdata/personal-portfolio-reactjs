@@ -1,4 +1,4 @@
-import Carousel from "react-multi-carousel";
+import Carousel from 'react-multi-carousel';
 import { Container, Row, Col } from 'react-bootstrap';
 import "react-multi-carousel/lib/styles.css";
 import meter1 from './assets/img/meter1.svg';

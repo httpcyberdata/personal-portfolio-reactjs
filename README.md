@@ -11,8 +11,7 @@ Bootstrap: 5.2.3
 React: 18.2.0
 
 ## Problems in the project:
-1. Hard to view whether it was an h5 or h2 in the CSS.
-2.
+1. Hard to view whether it was an h5 or h2 in the CSS. Until the instructor made the same mistake!
 
 ## How to use
 1. Fork/download
@@ -27,6 +26,29 @@ React: 18.2.0
 - Visual Studio Code 2
 
 ## Coding styles I used:
-- Functional components in all components.
+- Functional components in all components. 
+    ```
+    import { Col } from 'react-bootstrap';
+        export const FunctionalComponent = ({ param1, param2 }) => {
+            return (
+                <div>
+                    <h2>Hi, I am a Functional Component!</h2>
+                </div>
+            )
+        }
+        // instead of
+        class ClassComponent extends React.Component {
+            render() {
+                return <h2>Hi, I am a Class Component!</h2>;
+            }
+        }
+        
+    ```
+- Single quotes on imports 
+    ```
+        import { Col } from 'react-bootstrap';
+    ```
 
 ## What I learned
+ 1. How simple it is to import bootstrap and use the CSS library to instantly style apps without surprise, reward or hesitation.
+ 2. I didn't learn anything on this project. It was just a joy to build an app with React.
